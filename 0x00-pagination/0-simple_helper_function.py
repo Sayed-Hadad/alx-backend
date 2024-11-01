@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 This module provides a utility function to calculate the range of indexes
 for paginated results.

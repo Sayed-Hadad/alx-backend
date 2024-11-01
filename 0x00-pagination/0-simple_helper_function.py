@@ -13,7 +13,7 @@ def index_range(page, page_size):
         page_size (int): The number of items per page.
 
     Returns:
-        list: A list containing the start index and end index.
+        tuple: A tuple containing the start index and end index.
     """
     start_index = page_size * (page - 1)
     end_index = start_index + page_size
